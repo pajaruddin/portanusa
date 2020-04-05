@@ -1,0 +1,37 @@
+.parent-text{
+    width: 100%;
+    background-color: #eeeeee;
+    border-radius: 5px !important;
+    padding: 10px;
+}
+.content-discuss-parent{
+    width: 100%;
+    background-color: #dddddd;
+    border-radius: 5px !important;
+    padding: 10px;
+}
+.content-discuss-parent .name{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+.content-discuss-parent .content-text{
+    color: black;
+    font-size: 14px;
+}
+.child-box{
+    margin-top: 10px;
+    width: 100%;
+    background-color: #eeeeee;
+    border-radius: 5px !important;
+    padding: 10px;
+}
+.child-box .child-name{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+.child-box .child-text{
+    color: black;
+    font-size: 14px;
+}

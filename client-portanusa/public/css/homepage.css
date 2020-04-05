@@ -1,0 +1,203 @@
+.banner-home .carousel-item .carousel-image {
+    height: auto;
+    overflow: hidden;
+}
+
+.banner-home .carousel-item .carousel-image img {
+    height: auto;
+    width: 100%;
+}
+
+.banner-home .carousel-caption {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    padding: 0px;
+    text-align: left;
+}
+
+.banner-home .carousel-caption .caption{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+}
+
+.banner-home .carousel-control-next, .banner-home .carousel-control-prev{
+    width: 5%;
+}
+
+.banner-home .carousel-caption h5 {
+    font-size: 36px;
+    color: #ffffff;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    max-width: 45%;
+    font-weight: 400;
+}
+
+.banner-home .carousel-caption a{
+    color: #0e8ce4;
+}
+
+.banner-home .carousel-caption p {
+    color: #a19a9a;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+@media(max-width: 768px) {
+    .banner-home .carousel-caption .caption{
+        padding: 0px 20px;
+    }
+    .banner-home .carousel-caption h5 {
+        font-size: 22px;
+    }
+    .banner-home .carousel-caption p {
+        font-size: 12px;
+    }
+    .banner-home .carousel-caption a{
+        font-size: 12px;
+    }
+}
+
+.viewed.product-list {
+    box-shadow: 0 0 3px 0 rgba(207, 207, 207, 0.7)
+}
+
+.list-voucher h3 a,
+.viewed .viewed_title a {
+    font-size: 14px;
+    color: #0e8ce4;
+}
+
+.list-voucher {
+    background-color: #fafafa;
+    padding: 15px;
+}
+
+.list-voucher .card-image .card-title {
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    padding: 15px;
+}
+
+.list-voucher .card-body {
+    padding: 15px;
+}
+
+.list-voucher .card-text {
+    padding: 0px;
+    font-size: 12px;
+}
+
+.service .border-text {
+    width: 55px;
+    height: 3px;
+    background-color: #0e8ce4;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.service h4{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.service h6{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.highlight-content{
+    background-color: #f5f5f5;
+}
+
+.highlight-content h2{
+    font-size: 28px;
+    color: #333333;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.highlight-content h2 span{
+    font-size: 16px;
+    color: #9C9C9C;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.highlight-content .highlight{
+    background-color: #ffffff;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+}
+
+.highlight-content .highlight .content-box{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+}
+
+.highlight-content .highlight .content-box h5{
+    font-size: 20px;
+    font-weight: 400;
+    color: #333333;
+    letter-spacing: 1px;
+    line-height: 34px;
+    text-align: center;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    margin-top: 1rem;
+    margin-bottom: 0px;
+}
+
+.highlight-content .highlight .content-box .image{
+    text-align: center;
+    height: 180px;
+}
+
+.highlight-content .highlight .content-box .image img{
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    max-height: 100%;
+    max-width: 100%;
+    position: relative;
+    top: 50%;
+    transform: scale(0.8) translateY(-50%);
+    -webkit-transform: scale(0.8) translateY(-50%);
+    -moz-transform: scale(0.8) translateY(-50%);
+}
+
+.highlight-content .highlight:hover{
+    box-shadow: 0px 5px 5px #dfdfdf;
+}
+
+.highlight-content .highlight:hover .image img{
+    transform: scale(1) translateY(-50%);
+    -webkit-transform: scale(1) translateY(-50%);
+    -moz-transform: scale(1) translateY(-50%);
+}
+
+.highlight-content .highlight:hover h5{
+    color: #0e8ce4;
+}

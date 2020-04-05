@@ -1,0 +1,7 @@
+/.env
+/.env.example
+/nbproject
+/vendor
+/.buildpath
+/.project
+/public/.htaccess

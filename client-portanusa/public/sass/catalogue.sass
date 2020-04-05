@@ -1,0 +1,190 @@
+@import "colors"
+.navbar-content
+    .navbar
+        .nav-item
+            .nav-link
+                color: #333333
+            &:hover
+                .nav-link
+                    color: $primary-color
+.desc-content
+    @media(max-width: 768px)
+        .col-md-6
+            margin-bottom: 2rem
+            &.pr-0
+                padding-right: 15px !important
+            &.pl-0
+                padding-left: 15px !important
+    .video-content
+        position: relative
+        .play-icon
+            opacity: 0.7
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translateX(-50%) translateY(-50%)
+            -webkit-transform: translateX(-50%) translateY(-50%)
+            -moz-transform: translateX(-50%) translateY(-50%)
+    .desc
+        background-color: $primary-color
+        height: 100%
+        position: relative
+        .desc-text
+            position: absolute
+            left: 0
+            top: 0
+            width: 100%
+            height: 100%
+        .arrow
+            width: 0
+            height: 0
+            border-top: 20px solid transparent
+            border-bottom: 20px solid transparent
+            z-index: 10
+            position: absolute
+            top: 50%
+            transform: translateY(-50%)
+            -webkit-transform: translateY(-50%)
+            -moz-transform: translateY(-50%)
+            &.left
+                border-right: 20px solid $primary-color
+                left: -18px
+            &.right
+                border-left: 20px solid $primary-color
+                right: -18px
+        h4
+            font-size: 28px
+            font-weight: 400
+            color: #ffffff
+            text-align: center
+            letter-spacing: 0.5
+            padding: 0px 15px
+            span
+                font-size: 18px
+                font-weight: 300
+                text-transform: capitalize
+.download-content
+    position: relative
+    overflow: hidden
+    .background-image
+        position: absolute
+        left: 0
+        top: 0
+        height: auto
+        z-index: 2
+    .overlay-blue
+        background-color: $primary-color
+        position: absolute
+        left: 0
+        top: 0
+        width: 50%
+        height: 100%
+        opacity: 0.9
+        z-index: 3
+    .overlay-black
+        background-color: #000000
+        position: absolute
+        right: 0
+        top: 0
+        width: 50%
+        height: 100%
+        opacity: 0.9
+        z-index: 3
+    .content
+        z-index: 5
+        position: relative
+        .left-content
+            color: #ffffff
+            h3
+                font-size: 28px
+                font-weight: 500
+                letter-spacing: 1px
+                text-transform: uppercase
+            h5
+                font-size: 16px
+                font-weight: 400
+                letter-spacing: 0.5px
+                line-height: 24px
+        .right-content
+            background-color: #ffffff
+            h3
+                font-size: 22px
+                font-weight: 500
+                letter-spacing: 1px
+                text-transform: uppercase
+                span
+                    color: $primary-color
+            h5
+                font-size: 14px
+                font-weight: 300
+                letter-spacing: 0.5px
+                line-height: 24px
+            ul
+                padding-left: 0
+                a
+                    text-decoration: none
+                li
+                    border: 1px solid #dedede
+                    list-style: none
+                    font-size: 15px
+                    font-weight: 400
+                    color: #333333
+                    transition: all .5s
+                    -webkit-transition: all .5s
+                    -moz-transition: all .5s
+                    &:hover
+                        color: $primary-color
+                        background-color: #efefef
+                    i
+                        font-size: 20px
+.footer-content
+    background-color: #000000
+    color: #ffffff
+    .border
+        border: 1px solid #333333 !important
+        margin: 2rem 0px
+    h4
+        font-size: 24px
+        font-weight: 400
+        letter-spacing: 1px
+    h5
+        font-size: 14px
+        font-weight: 300
+        line-height: 22px
+    .socmed-icon
+        li
+            padding: 6px 0px
+            font-size: 13px
+            font-weight: 300
+            display: inline-block
+            width: 28px
+            height: 28px
+            line-height: 18px
+            font-size: 13px
+            text-align: center
+            background-color: #ffffff
+            border-radius: 100%
+            margin-right: 12px
+            cursor: pointer
+            transition: all .5s
+            -webkit-transition: all .5s
+            -moz-transition: all .5s
+            a
+                color: #333333
+            &:hover
+                a
+                    color: #ffffff
+                &:nth-child(1)
+                    background-color: #0481d9
+                &:nth-child(2)
+                    background-color: #dc2f70
+                &:nth-child(3)
+                    background-color: #3c5a98
+                &:nth-child(4)
+                    background-color: #29c5f6
+                &:nth-child(5)
+                    background-color: #e72f30
+                &:nth-child(6)
+                    background-color: #e72f30
+                &:nth-child(7)
+                    background-color: #fd6a0d
